@@ -1,0 +1,20 @@
+{
+  "name": "userregistration",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "serve": "nodemon ./routes/mainroute.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
